@@ -4,6 +4,13 @@ import pluginJs from "@eslint/js";
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   {
+    ignores: [
+      'node_modules',
+      'dist',
+      'webpack.config.js'
+    ],
+  },
+  {
     files: ["**/*.js"],
     rules: {
       "prefer-const": "error",
