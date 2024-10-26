@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "develop":"webpack --mode=development",
+    "build":"webpack --mode=production",
     "lint": "eslint . --fix",
     "ci:lint": "eslint .",
     "test": "jest --watch",
@@ -13,9 +15,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
     "@eslint/js": "^9.13.0",
+    "babel-loader": "^9.2.1",
     "eslint": "^9.13.0",
     "globals": "^15.11.0",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "webpack-cli": "^5.1.4"
   }
 }
