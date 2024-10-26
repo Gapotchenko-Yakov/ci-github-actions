@@ -7,4 +7,4 @@ const attack = (creatureName, damage, isCritical) => {
   return result;
 };
 
-module.exports = attack;
+export default attack;

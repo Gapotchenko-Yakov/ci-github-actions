@@ -8,7 +8,7 @@ export default [
     rules: {
       "prefer-const": "error",
     },
-    languageOptions: { sourceType: "commonjs" },
+    languageOptions: { sourceType: "module" },
   },
   {
     languageOptions: {
