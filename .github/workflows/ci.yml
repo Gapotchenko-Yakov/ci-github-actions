@@ -3,7 +3,7 @@ on: [push]
 jobs:
   standard-checks:
     name: Lint and Test
-    runs-on: windows-2016
+    runs-on: windows-latest
 
     steps:
       - run: node -v 
