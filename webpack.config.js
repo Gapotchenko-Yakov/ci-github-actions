@@ -4,7 +4,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                use: 'bab-loader',
+                use: 'babel-loader',
             },
         ],
     },
