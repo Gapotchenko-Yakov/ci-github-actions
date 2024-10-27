@@ -24,3 +24,6 @@ jobs:
 
       - name: Run Tests
         run: npm run ci:test
+
+      - name: Lighthouse Benchmarks
+        run: npm run ci:lighthouse
