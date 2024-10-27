@@ -26,4 +26,6 @@ jobs:
         run: npm run ci:test
 
       - name: Lighthouse Benchmarks
-        run: npm run ci:lighthouse
+        run: lhci autorun --upload.target=github
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
