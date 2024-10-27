@@ -5,9 +5,9 @@ module.exports = {
         },
         assert: {
             preset: 'lighthouse:recommended',
-            assertions: {
-                // "errors-in-console": "off",
-            },
+            // assertions: {
+            //     // "errors-in-console": "off",
+            // },
         },
     },
 };
